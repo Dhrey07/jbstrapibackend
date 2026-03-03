@@ -43,5 +43,15 @@
     "subheader": {
       "type": "text"
     }
+  },
+  "category": {
+    "type": "enumeration",
+    "enum": [
+      "case study",
+      "spotlights",
+      "featured article"
+    ],
+    "default": "featured article",
+    "required": false
   }
 }
