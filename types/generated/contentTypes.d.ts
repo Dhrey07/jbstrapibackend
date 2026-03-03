@@ -442,6 +442,9 @@ export interface ApiJbcommunicationsBlogPostJbcommunicationsBlogPost
     draftAndPublish: true;
   };
   attributes: {
+    Category: Schema.Attribute.Enumeration<
+      ['Spotlight', 'Featured article', 'Case study']
+    >;
     content: Schema.Attribute.Blocks;
     coverimage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',

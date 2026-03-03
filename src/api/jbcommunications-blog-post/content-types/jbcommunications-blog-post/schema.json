@@ -42,16 +42,14 @@
     },
     "subheader": {
       "type": "text"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Spotlight",
+        "Featured article",
+        "Case study"
+      ]
     }
-  },
-  "category": {
-    "type": "enumeration",
-    "enum": [
-      "case study",
-      "spotlights",
-      "featured article"
-    ],
-    "default": "featured article",
-    "required": false
   }
 }
